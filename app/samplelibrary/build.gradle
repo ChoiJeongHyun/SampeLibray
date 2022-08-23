@@ -13,7 +13,8 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.ChoiJeongHyun'
+//                groupId = 'com.github.ChoiJeongHyun'
+                groupId = 'ai.genesislab.samplelibrary'
                 artifactId = ''
                 version = '1.0.0'
             }
@@ -22,7 +23,8 @@ afterEvaluate {
                 // Applies the component for the debug build variant.
                 from components.debug
 
-                groupId = 'com.github.ChoiJeongHyun'
+//                groupId = 'com.github.ChoiJeongHyun'
+                groupId = 'ai.genesislab.samplelibrary'
                 artifactId = 'final-debug'
                 version = '1.0.0'
             }

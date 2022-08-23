@@ -1,6 +1,7 @@
 package ai.genesislab.samplelibrary
 
 import ai.genesislab.samplelibrary.toast.ToastLib
+import ai.genesislab.samplelibrary.toast.ToastLib.Companion.sShow
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
@@ -9,7 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        ToastLib.PToast.sShow(this , "hi")
+
+        sShow(this , "hi")
+
 
     }
 }
