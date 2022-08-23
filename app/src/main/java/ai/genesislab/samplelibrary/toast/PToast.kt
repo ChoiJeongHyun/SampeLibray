@@ -6,13 +6,15 @@ import android.widget.Toast
 /**
  * Created by genesislab_Jeong-Hyun. 2022/08/23
  */
-object PToast {
+class ToastLib {
+    object PToast {
+        fun show(context: Context, msg: String? = ""){
+            Toast.makeText(context , msg, Toast.LENGTH_SHORT).show()
+        }
 
-    fun show(context: Context, msg: String? = ""){
-        Toast.makeText(context , msg, Toast.LENGTH_SHORT).show()
-    }
-
-    fun longShow(context: Context,  msg: String? = "") {
-        Toast.makeText(context , msg, Toast.LENGTH_LONG).show()
+        fun longShow(context: Context,  msg: String? = "") {
+            Toast.makeText(context , msg, Toast.LENGTH_LONG).show()
+        }
     }
 }
+
