@@ -1,4 +1,4 @@
-package ai.genesislab.samplelibrary.toast
+package ai.genesislab.mysamplelibrary.toast
 
 import android.content.Context
 import android.widget.Toast
