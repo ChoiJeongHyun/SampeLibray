@@ -16,7 +16,7 @@ afterEvaluate {
                 groupId = 'com.github.ChoiJeongHyun'
 //                groupId = 'ai.genesislab.samplelibrary'
                 artifactId = 'SampeLibray'
-                version = '1.0.0'
+                version = '1.0.1'
             }
             // Creates a Maven publication called “debug”.
             debug(MavenPublication) {
@@ -26,7 +26,7 @@ afterEvaluate {
                 groupId = 'com.github.ChoiJeongHyun'
 //                groupId = 'ai.genesislab.samplelibrary'
                 artifactId = 'SampeLibray'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }
